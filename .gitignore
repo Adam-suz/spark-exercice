@@ -1,0 +1,22 @@
+events/*
+!events/.gitkeep
+resultats/*
+!resultats/.gitkeep
+/data/
+
+# Python and Jupyter
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Local configuration and generated files
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+Thumbs.db
+spark-warehouse/
+metastore_db/
